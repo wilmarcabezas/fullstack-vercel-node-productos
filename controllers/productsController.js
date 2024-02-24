@@ -11,7 +11,7 @@ router.get("/:id", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-  res.json({ message: "Producto Registrado" });
+  res.json({ message: "Producto Registrado." });
 });
 
 export default router;
